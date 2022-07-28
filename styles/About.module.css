@@ -1,0 +1,58 @@
+.about {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3em;
+}
+
+.about div p{
+    max-width: 600px;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.links span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all .3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+/* add hover animations  */
+.links span:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 850px) {
+    .about div p {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .links span img {
+        display: none;
+    }
+    
+    .about div {
+        width: 100%;
+    }
+
+    .links {
+        
+        gap: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+}
