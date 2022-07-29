@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import styles from "../../styles/Hero.module.css";
 
-function Hero({ title }) {
+function Hero({ title, ctaButton, secondaryButton }) {
   return (
     <div className={styles.hero}>
         <Image
@@ -18,10 +18,10 @@ function Hero({ title }) {
 
         <div className={styles.buttons}>
           <Link href={"#contact"}>
-            <button>Contact</button>
+            <button>{secondaryButton}</button>
           </Link>
           <Link href={"https://www.beatstars.com/realskproductions"}>
-            <button>Buy now</button>
+            <button>{ctaButton}</button>
           </Link>
         </div>
       </div>
