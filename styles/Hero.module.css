@@ -36,7 +36,7 @@
 }
 
 .buttons button {
-  background-color: #222;
+  background-color: #424242;
   border-radius: 4px;
   border-style: none;
   box-sizing: border-box;
@@ -67,6 +67,11 @@
 .buttons button:hover,
 .buttons button:focus {
   opacity: 0.75;
+}
+
+.buttons button:last-child {
+  background-color: rgb(248, 248, 248);
+  color: black;
 }
 
 @media only screen and (max-width: 500px) {

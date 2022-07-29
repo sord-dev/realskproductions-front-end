@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>realskproductions - beat leasing</title>
-        <meta name="description" content="Beat leasing by realskproductions" />
+        <title>realskproductions - beat leasing and studio time</title>
+        <meta name="description" content="realskproductions - breat leasing and studio time website built in nextjs" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta
           httpEquiv="Content-Type"
