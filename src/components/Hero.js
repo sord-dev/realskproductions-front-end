@@ -6,22 +6,12 @@ import styles from "../../styles/Hero.module.css";
 function Hero({ title }) {
   return (
     <div className={styles.hero}>
-<<<<<<< HEAD
-      <Image
-        src={"/sklogo.png"}
-        width={700}
-        height={400}
-        alt="sklogo"
-        className={styles.bigLogo}
-      />
-=======
         <Image
           src={"/sklogo.png"}
           width={700}
           height={350}
           alt="site logo"
         />
->>>>>>> working
 
       <div className={styles.title}>
         <h1>{title}</h1>
