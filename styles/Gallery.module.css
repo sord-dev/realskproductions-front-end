@@ -16,9 +16,30 @@
     justify-content: center;
 }
 
+.itemList div div div {
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+.itemList div div div:hover {
+    transform: scale(1.04);
+}
+
+.itemList div div div video{
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.itemList div div div img{
+    max-width: 400px;
+    max-height: 350px;
+}
+
+
+
 .itemList div{
     display: flex;
-    grid-gap: 10px;
+    gap: 15px;
     grid-template-columns: repeat(auto-fill, 1fr);
     align-items: center;
     justify-items: center;
@@ -29,9 +50,7 @@
     transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
-.itemList div img:hover{
-  transform: scale(1.055);
-}
+
 
 .itemList svg {
     display: none;

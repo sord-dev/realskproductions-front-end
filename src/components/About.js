@@ -4,16 +4,13 @@ import React from "react";
 import styles from "../../styles/About.module.css";
 
 
-function About() {
+function About({text}) {
   return (
     <div className={styles.about} id={"about"}>
       <div>
         <h1>@realskproductions</h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-          magnam, at neque esse eos, vel sapiente delectus soluta dolorem
-          officia facere, sed eum minima quas pariatur perferendis id. Quis,
-          vel!
+          {text}
         </p>
       </div>
 

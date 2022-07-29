@@ -6,6 +6,10 @@
     padding: 3em;
 }
 
+.about:first-child h1 {
+    text-transform: uppercase;
+}
+
 .about div p{
     max-width: 600px;
 }

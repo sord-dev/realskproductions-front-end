@@ -7,9 +7,12 @@ import Nav from "../src/components/Nav";
 import styles from "../styles/Home.module.css";
 
 // TODO
-// change api token to sk's
-// add about text content
-// change font and typography
+// change api token to sk's via meta for developers aka insta inv and login
+// add about me text content
+// add youtube social and possible api? https://www.youtube.com/channel/UCwdTrf45fyXB_Bhpn0V-Alg  
+// move buttons away from logo in hero
+// change instagram post size
+// add beatstars to contact list
 
 export default function Home() {
   return (
@@ -28,9 +31,9 @@ export default function Home() {
       <Nav />
 
       <div className={styles.container}>
-        <About />
+        <About text={"Young music producer and engineer based in London. I've been producing since 2015 and engineering since 2018, I've worked with various artists ranging from R&B singers and drill rappers. I provide instrumental leasings"} />
 
-        <Gallery />
+        <Gallery title={'Songs'} items={8} />
 
         <div className={styles.map} id="map">
           <h1>Map // Loco</h1>
@@ -48,6 +51,11 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <div className="footer">
+
+        </div>
+
       </div>
     </>
   );
