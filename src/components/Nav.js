@@ -10,10 +10,10 @@ function Nav() {
             <Link href="#about">About Us</Link>
           </li>
           <li>
-            <Link href="#gallery">Gallery</Link>
+            <Link href="#gallery">Songs</Link>
           </li>
           <li>
-            <Link href="#pricing">Pricing</Link>
+            <Link href="#map">Pricing</Link>
           </li>
           <li>
             <Link href="#map">Map</Link>
