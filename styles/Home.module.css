@@ -1,35 +1,7 @@
-.gallery {
-    padding: 1em;
+.map {
+    margin-top: 15px;
 }
 
-.gallery h1 {
+.map h1 {
     text-align: center;
-}
-
-.itemList {
-    padding: 5em;
-    display: flex;
-    justify-content: center;
-    gap: 3em;
-    flex-wrap: wrap;
-}
-
-.item {
-    width: 300px;
-    height: 250px;
-    padding: 1em;
-    background-color: #eee;
-    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.item:hover{
-    transform: scale(1.075)
-}
-
-
-@media only screen and (max-width: 500px) {
-   .item {
-    width: 250px;
-    height: 200px;
-   }
 }

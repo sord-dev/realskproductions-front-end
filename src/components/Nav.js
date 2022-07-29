@@ -16,7 +16,7 @@ function Nav() {
             <Link href="#pricing">Pricing</Link>
           </li>
           <li>
-            <Link href="#reviews">Reviews</Link>
+            <Link href="#map">Map</Link>
           </li>
         </ul>
       </div>

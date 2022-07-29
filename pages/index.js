@@ -1,24 +1,15 @@
-import Head from "next/head";
+import Head from "next/head";;
 import About from "../src/components/About";
+import Gallery from "../src/components/Gallery";
 import Hero from "../src/components/Hero";
 import Nav from "../src/components/Nav";
 import styles from "../styles/Home.module.css";
-import instagram from "./api/instagram";
-
-// TODO 
-// add images with api https://www.instagram.com/realskproductions/?__a=1&__d=dis
+// TODO
+// change api token to sk's
 // add about text content
-// add link hrefs
+// title styles
 
 export default function Home() {
-  const data = [
-    { id: 1, src: "undefined", alt: "undefined alt" },
-    { id: 2, src: "undefined", alt: "undefined alt" },
-    { id: 3, src: "undefined", alt: "undefined alt" },
-    { id: 4, src: "undefined", alt: "undefined alt" },
-  ];
-
-  const Item = (props) => <div className={styles.item}>{props.image.alt}</div>;
 
   return (
     <>
@@ -32,19 +23,17 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon-fill.ico" />
       </Head>
-      <Hero title={"realskproductions - LDN"} />
+      <Hero title={"realskproductions"} />
       <Nav />
       <About />
 
-      <div className={styles.gallery}>
-        <h1>Gallery</h1>
+      <Gallery />
 
-        <div className={styles.itemList}>
-          {data.map((image) => (
-            <Item key={image.id} image={image} />
-          ))}
+      <div className={styles.map} id='map'>
+
+        <h1>Map // Loco</h1>
+
         </div>
-      </div>
     </>
   );
 }
