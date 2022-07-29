@@ -56,3 +56,10 @@
         justify-content: center;
     }
 }
+
+@media only screen and (max-width: 300px) {
+    .about h1 {
+        font-size: 1.3em;
+    }
+
+}
