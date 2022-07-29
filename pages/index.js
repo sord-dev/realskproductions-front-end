@@ -19,7 +19,7 @@ export default function Home() {
         <title>realskproductions - beat leasing and studio time</title>
         <meta
           name="description"
-          content="realskproductions - breat leasing and studio time website built in nextjs"
+          content="realskproductions - beat leasing and studio time website built in nextjs"
         />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
          <meta name="keywords" content="production, beat-leasing, london production, rent music studio" />
