@@ -10,13 +10,13 @@ function Nav() {
             <Link href="#about">About Us</Link>
           </li>
           <li>
-            <Link href="/">Gallery</Link>
+            <Link href="#gallery">Gallery</Link>
           </li>
           <li>
-            <Link href="/">Pricing</Link>
+            <Link href="#pricing">Pricing</Link>
           </li>
           <li>
-            <Link href="/">Reviews</Link>
+            <Link href="#reviews">Reviews</Link>
           </li>
         </ul>
       </div>

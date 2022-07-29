@@ -3,11 +3,23 @@ import About from "../src/components/About";
 import Hero from "../src/components/Hero";
 import Nav from "../src/components/Nav";
 import styles from "../styles/Home.module.css";
+import instagram from "./api/instagram";
 
 // TODO 
-// add images
+// add images with api https://www.instagram.com/realskproductions/?__a=1&__d=dis
 // add about text content
-// add link hrefs 
+// add link hrefs
+
+export async function getServerSideProps(context) {
+  const data = await instagram.get()
+
+  console.log(data)
+
+  return {
+    props: {}, // will be passed to the page component as props
+  }
+}
+
 
 export default function Home() {
   const data = [
