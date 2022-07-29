@@ -8,8 +8,8 @@ function Hero({title}) {
     <div className={styles.hero}>
         <Image
           src={"/sklogo.png"}
-          width={"800rem"}
-          height={"400rem"}
+          width={700}
+          height={350}
           alt="sklogo"
         />
 

@@ -10,17 +10,6 @@ import instagram from "./api/instagram";
 // add about text content
 // add link hrefs
 
-export async function getServerSideProps(context) {
-  const data = await instagram.get()
-
-  console.log(data)
-
-  return {
-    props: {}, // will be passed to the page component as props
-  }
-}
-
-
 export default function Home() {
   const data = [
     { id: 1, src: "undefined", alt: "undefined alt" },
@@ -34,7 +23,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>realskproductions</title>
+        <title>realskproductions - beat leasing</title>
         <meta name="description" content="Beat leasing by realskproductions" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta
