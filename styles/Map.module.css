@@ -1,0 +1,37 @@
+.map {
+    margin: 15px;
+  }
+  
+  .map h1 {
+    text-align: center;
+  }
+  
+  .mapBox {
+    width: 70%;
+    max-height: 600px;
+    min-height: 300px;
+    min-width: 250px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: rgb(13, 13, 13);
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .mapBox img {
+    opacity: 0.6;
+  }
+  
+  .mapBox div {
+    position: absolute;
+    top: 30%;
+    color: white;
+  }
+  
+  .mapBox div h1 {
+    letter-spacing: 0.1px;
+    font-weight: 300;
+    font-size: 3.1em;
+  }
+  

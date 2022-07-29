@@ -3,6 +3,7 @@ import Image from "next/image";
 import About from "../src/components/About";
 import Gallery from "../src/components/Gallery";
 import Hero from "../src/components/Hero";
+import Map from "../src/components/Map";
 import Nav from "../src/components/Nav";
 import styles from "../styles/Home.module.css";
 
@@ -35,22 +36,7 @@ export default function Home() {
 
         <Gallery title={'Songs'} items={8} />
 
-        <div className={styles.map} id="map">
-          <h1>Map // Loco</h1>
-
-          <div className={styles.mapBox}>
-            <Image
-              src={"/sklogo.png"}
-              width={1250}
-              height={600}
-              alt="site logo"
-            />
-
-            <div>
-              <h1> Studio time offered soon! </h1>
-            </div>
-          </div>
-        </div>
+        <Map notice='Studio time offered soon!' />
 
         <div className="footer">
 
