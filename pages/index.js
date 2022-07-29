@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import About from "../src/components/About";
+import Footer from "../src/components/Footer";
 import Gallery from "../src/components/Gallery";
 import Hero from "../src/components/Hero";
 import Map from "../src/components/Map";
@@ -54,21 +55,7 @@ export default function Home() {
 
       </div>
 
-      <div className={styles.footer}>
-
-      <div className={`${styles.container} ${styles.center}`}>
-
-      <div>
-        <SocialsList />
-      </div>
-
-      <p> &copy; realskproductions</p>
-
-
-      </div>
-
-
-      </div>
+      <Footer />
     </>
   );
 }
