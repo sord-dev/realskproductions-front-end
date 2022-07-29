@@ -11,10 +11,8 @@ import styles from "../styles/Home.module.css";
 
 // TODO
 // improve about me text content
-// add youtube social and possible api? https://www.youtube.com/channel/UCwdTrf45fyXB_Bhpn0V-Alg
-// add beatstars to contact list
+// possible youtube api link? https://www.youtube.com/channel/UCwdTrf45fyXB_Bhpn0V-Alg
 // move buttons away from logo in hero
-// modularise contactlist
 
 export default function Home() {
   return (
