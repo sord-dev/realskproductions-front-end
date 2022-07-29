@@ -17,8 +17,9 @@
   color: #fff;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%);
   min-width: 300px;
+  text-align: center;
 }
 
 .buttons {
