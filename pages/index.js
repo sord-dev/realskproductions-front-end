@@ -1,16 +1,17 @@
-import Head from "next/head";;
+import Head from "next/head";
+import Image from "next/image";
 import About from "../src/components/About";
 import Gallery from "../src/components/Gallery";
 import Hero from "../src/components/Hero";
 import Nav from "../src/components/Nav";
 import styles from "../styles/Home.module.css";
+
 // TODO
 // change api token to sk's
 // add about text content
-// title styles
+// change font and typography
 
 export default function Home() {
-
   return (
     <>
       <Head>
@@ -25,15 +26,29 @@ export default function Home() {
       </Head>
       <Hero title={"realskproductions"} />
       <Nav />
-      <About />
 
-      <Gallery />
+      <div className={styles.container}>
+        <About />
 
-      <div className={styles.map} id='map'>
+        <Gallery />
 
-        <h1>Map // Loco</h1>
+        <div className={styles.map} id="map">
+          <h1>Map // Loco</h1>
 
+          <div className={styles.mapBox}>
+            <Image
+              src={"/sklogo.png"}
+              width={1250}
+              height={600}
+              alt="site logo"
+            />
+
+            <div>
+              <h1> Studio time offered soon! </h1>
+            </div>
+          </div>
         </div>
+      </div>
     </>
   );
 }

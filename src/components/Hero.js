@@ -10,7 +10,7 @@ function Hero({title}) {
           src={"/sklogo.png"}
           width={700}
           height={350}
-          alt="sklogo"
+          alt="site logo"
         />
 
         <div className={styles.title}>
