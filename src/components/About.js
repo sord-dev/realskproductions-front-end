@@ -9,14 +9,14 @@ function About({text}) {
   return (
     <div className={styles.about} id={"about"}>
       <div>
-        <h1>@realskproductions</h1>
+        <h2>@realskproductions</h2>
         <p>
           {text}
         </p>
       </div>
 
       <div>
-        <h1>contact us</h1>
+        <h2>contact us</h2>
 
         <div className={styles.links} id='contact'>
 

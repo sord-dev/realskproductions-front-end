@@ -5,7 +5,7 @@ import styles from '../../styles/Map.module.css'
 function Map({ notice }) {
   return (
     <div className={styles.map} id="map">
-          <h1>Map // Loco</h1>
+          <h2>Map // Loco</h2>
 
           <div className={styles.mapBox}>
             <Image
@@ -16,7 +16,7 @@ function Map({ notice }) {
             />
 
             <div>
-              <h1> {notice} </h1>
+              <h3> {notice} </h3>
             </div>
           </div>
         </div>

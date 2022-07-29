@@ -6,8 +6,9 @@
     padding: 3em;
 }
 
-.about:first-child h1 {
+.about h2 {
     text-transform: uppercase;
+    font-size: 2em;
 }
 
 .about div p{

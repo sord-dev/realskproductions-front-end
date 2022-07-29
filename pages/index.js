@@ -1,12 +1,10 @@
-import Head from "next/head";
-import Image from "next/image";
+import Head from "next/head";;
 import About from "../src/components/About";
 import Footer from "../src/components/Footer";
 import Gallery from "../src/components/Gallery";
 import Hero from "../src/components/Hero";
 import Map from "../src/components/Map";
 import Nav from "../src/components/Nav";
-import SocialsList from "../src/components/SocialsList";
 import styles from "../styles/Home.module.css";
 
 // TODO
@@ -24,10 +22,9 @@ export default function Home() {
           content="realskproductions - breat leasing and studio time website built in nextjs"
         />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta
-          httpEquiv="Content-Type"
-          content="text/html; charset=ISO-8859-1"
-        />
+         <meta name="keywords" content="production, beat-leasing, london production, rent music studio" />
+        <meta name="author" content="Stefan Syrett" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon-fill.ico" />
       </Head>
 
@@ -36,7 +33,6 @@ export default function Home() {
         ctaButton={"Buy Beats now"}
         secondaryButton={"Contact"}
       />
-
 
       <Nav />
 
@@ -50,7 +46,6 @@ export default function Home() {
         <Gallery title={"Songs"} items={8} />
 
         <Map notice="Studio time offered soon!" />
-
       </div>
 
       <Footer />

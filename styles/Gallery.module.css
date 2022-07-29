@@ -2,8 +2,9 @@
     padding: 1em;
 }
 
-.gallery h1 {
+.gallery h2 {
     text-align: center;
+    font-size: 2em;
 }
 
 .itemList {

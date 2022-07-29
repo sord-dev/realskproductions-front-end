@@ -8,7 +8,7 @@ const DEV_ACCESS_TOKEN =
 function Gallery({title, items}) {
   return (
     <div className={styles.gallery}>
-        <h1>{title}</h1>
+        <h2>{title}</h2>
 
         <div className={styles.itemList} id='gallery'>
           <InstagramFeed token={DEV_ACCESS_TOKEN} counter={items} />
