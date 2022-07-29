@@ -8,12 +8,11 @@ import Nav from "../src/components/Nav";
 import styles from "../styles/Home.module.css";
 
 // TODO
-// change api token to sk's via meta for developers aka insta inv and login
-// add about me text content
+// improve about me text content
 // add youtube social and possible api? https://www.youtube.com/channel/UCwdTrf45fyXB_Bhpn0V-Alg  
-// move buttons away from logo in hero
-// change instagram post size
 // add beatstars to contact list
+// move buttons away from logo in hero
+// modularise contactlist
 
 export default function Home() {
   return (
