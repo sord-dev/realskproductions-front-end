@@ -62,8 +62,8 @@
     }
 }
 
-@media only screen and (max-width: 300px) {
-    .about h1 {
+@media only screen and (max-width: 400px) {
+    .about h2 {
         font-size: 1.3em;
     }
 

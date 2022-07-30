@@ -26,7 +26,7 @@
   
   .mapBox div {
     position: absolute;
-    top: 30%;
+    top: 20%;
     color: white;
   }
   
@@ -36,3 +36,13 @@
     font-size: 3.1em;
   }
   
+  @media only screen and (max-width: 650px) {
+   .mapBox div {
+    top: 10%;
+   }
+
+   .mapBox div h3 {
+    font-size: 2em;
+    text-align: center;
+   }
+ }
