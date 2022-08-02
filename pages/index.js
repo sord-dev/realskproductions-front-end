@@ -1,12 +1,10 @@
 import Head from "next/head";
-import Image from "next/image";
 import About from "../src/components/About";
 import Footer from "../src/components/Footer";
 import Gallery from "../src/components/Gallery";
 import Hero from "../src/components/Hero";
 import Map from "../src/components/Map";
 import Nav from "../src/components/Nav";
-import SocialsList from "../src/components/SocialsList";
 import styles from "../styles/Home.module.css";
 
 // TODO
@@ -33,10 +31,10 @@ export default function Home() {
 
       <Hero
         title={"realskproductions"}
+        heroLogo={"/sklogo.png"}
         ctaButton={"Buy Beats now"}
         secondaryButton={"Contact"}
       />
-
 
       <Nav />
 
@@ -47,10 +45,9 @@ export default function Home() {
           }
         />
 
-        <Gallery title={"Songs"} items={8} />
+        <Gallery title={"Songs"} items={7} />
 
         <Map notice="Studio time offered soon!" />
-
       </div>
 
       <Footer />
