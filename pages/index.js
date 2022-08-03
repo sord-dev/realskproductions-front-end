@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import Head from "next/head";;
-=======
 import Head from "next/head";
->>>>>>> working
 import About from "../src/components/About";
 import Footer from "../src/components/Footer";
 import Gallery from "../src/components/Gallery";
