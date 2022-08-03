@@ -3,16 +3,14 @@ import Link from "next/link";
 import React from "react";
 import styles from "../../styles/Hero.module.css";
 
-function Hero({ title, ctaButton, secondaryButton }) {
+function Hero({ title, ctaButton, secondaryButton, heroLogo }) {
   return (
     <div className={styles.hero}>
-        <Image
-          src={"/sklogo.png"}
-          width={700}
-          height={350}
-          alt="site logo"
-        />
+     
+        <Image priority src={heroLogo} width={700} height={350} alt="site logo" />
 
+        <div className={styles.dim}>
+      </div>
       <div className={styles.title}>
         <h1>{title}</h1>
 

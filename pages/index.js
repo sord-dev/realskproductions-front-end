@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import Head from "next/head";;
+=======
+import Head from "next/head";
+>>>>>>> working
 import About from "../src/components/About";
 import Footer from "../src/components/Footer";
 import Gallery from "../src/components/Gallery";
@@ -30,6 +34,7 @@ export default function Home() {
 
       <Hero
         title={"realskproductions"}
+        heroLogo={"/sklogo.png"}
         ctaButton={"Buy Beats now"}
         secondaryButton={"Contact"}
       />
@@ -43,7 +48,7 @@ export default function Home() {
           }
         />
 
-        <Gallery title={"Songs"} items={8} />
+        <Gallery title={"Songs"} items={7} />
 
         <Map notice="Studio time offered soon!" />
       </div>
